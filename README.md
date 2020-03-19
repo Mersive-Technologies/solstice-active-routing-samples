@@ -18,6 +18,8 @@ Execute `pip install -r requirements.txt`
 
 Update the `config.py` file with the IP addresses of your Active Routing pods.
 
+Run an example script: `python script_name.py`
+
 # Examples in `/samples` directory
 
 `auth.py`: Demonstrates how to get a token to be used in subsequent steps
