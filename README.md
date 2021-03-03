@@ -1,6 +1,6 @@
 # Introduction
 
-These are some examples of using the Solstice Active Routing API using Python.
+These are some examples of using the Solstice Active Routing API using Python and SimplSharp.
 
 # Pre-requisites
 
@@ -27,3 +27,7 @@ Run an example script: `python script_name.py`
 `patch_active_learning.py`: Demonstrates authentication and routing displays to multiple Pods (aka sinks)
 
 `delete_active_learning.py`: Demonstrates authentication and deleting the connections to the Pods (aka sinks)
+
+# Example in `/csharp-samples` directory
+
+`active-routing-simplsharp.cs`: Demonstrates how to interact with the Active Routing API. NB: There is a limitation in SimplSharp using the HTTP verb Patch. See the note in the code for more details. Also, the console logging does not use the SimplSharp facility. You'll need to update the code to use the built-in SimplSharp logging mechanism.
